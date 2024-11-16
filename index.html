@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Cinzel:wght@400..900&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Lobster&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playwrite+FR+Trad:wght@100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Dev Coffee</title>
+</head>
+<body>
+
+    <div class="caixa-video">
+        <video src="videos/coffe.mp4" loop muted autoplay></video>
+        <div class="mascara"></div>
+    </div>
+
+    
+
+    
+
+    <header>
+
+        <section>
+
+            <a href="#">
+                <img src="/img/logo.png" alt="logo-cafeteria">
+            </a>
+
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Sobre</a>
+                <a href="#">Avaliações</a>
+                <a href="#" onclick="MostrarModal()">Endereço</a>
+            </nav>
+        </section>
+    </header>
+
+    
+    <section class="caixa-principal">
+        <div>
+            <h3>Code com o Melhor café da Região</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident suscipit sit dolor ipsum quia aut temporibus velit fuga incidunt non in esse, adipisci totam autem distinctio molestias voluptatem aspernatur nostrum!</p>
+            <a  class="botao-link" href="#">Pague o seu agora</a>
+        </div>
+    </section>
+
+    <section class="caixa-sobre">
+        <h2 class="titulo"><span>Sobre</span>Nós</h2>
+        <div class="sobre-container">
+            <div class="sobre-imagem">
+                <img src="/img/about-img.jpg" alt="">
+            </div>
+
+            <div class="sobre-texto">
+                <h3>O que faz nosso café especial</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque tenetur sequi mollitia esse nisi! Corporis nostrum, eligendi laboriosam facere dolorem porro quas quibusdam odio temporibus ea alias neque nisi libero!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel rerum, reprehenderit, magnam eaque pariatur asperiores delectus officiis debitis inventore, ipsam labore laudantium cumque explicabo fuga quo nisi aut. Voluptate, molestias?</p>
+                <a class="botao-link" href="#">Saiba Mais</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal">
+        <h3 class="titulo">Nosso <span>Endereço</span></h3>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.669972848851!2d-46.966568724967814!3d-23.544369660967593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf0587c8e1dddb%3A0x6e5c6d9e9bca9f2c!2sEscola%20T%C3%A9cnica%20Estadual%20de%20Itapevi!5e0!3m2!1spt-BR!2sbr!4v1731786591008!5m2!1spt-BR!2sbr" allowfullscreen="" title="Location of Escola Técnica Estadual de Itapevi" class="iframe-container"></iframe>
+    </div>
+
+    <div class="mascara-modal" onclick="FecharModal()"></div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
